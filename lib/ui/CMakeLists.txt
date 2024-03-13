@@ -1,0 +1,27 @@
+SET(SOURCES screens/ui_Screen1.c
+    screens/ui_Screen2.c
+    screens/ui_Screen3.c
+    screens/ui_Screen4.c
+    screens/ui_Screen5.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c
+    ui_events.c
+    images/ui_img_rainy_png.c
+    images/ui_img_celsius_png.c
+    images/ui_img_1670780937.c
+    images/ui_img_676135747.c
+    images/ui_img_676132672.c
+    images/ui_img_frame_381_png.c
+    images/ui_img_frame_374_png.c
+    images/ui_img_sun_png.c
+    images/ui_img_night_png.c
+    images/ui_img_next_png.c
+    images/ui_img_settings_png.c
+    images/ui_img_arrow_png.c
+    images/ui_img_2057797228.c
+    images/ui_img_1536731275.c
+    images/ui_img_fire_urn_png.c
+    images/ui_img_4138409.c)
+
+add_library(ui ${SOURCES})

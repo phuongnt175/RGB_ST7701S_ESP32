@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "new": "cpp",
+        "fstream": "cpp",
+        "touch.h": "c",
+        "wire.h": "c",
+        "touchlib.h": "c",
+        "*.tpp": "cpp",
+        "lv_demo_keypad_encoder.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}
